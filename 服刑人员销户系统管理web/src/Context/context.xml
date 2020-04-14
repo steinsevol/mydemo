@@ -1,0 +1,7 @@
+<Context>
+	<Resource name="jdbc/sales" type="javax.sql.DataSource"
+		auth="Container"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		url="jdbc:sqlserver://127.0.0.1:1433;DatabaseName=db_sales"
+		username="sa" password="" maxActive="50" maxIdle="10" maxWait="6000" />
+</Context>
